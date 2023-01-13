@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin-left: 150px;
+    margin-right: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+    color: white;
+    /* height: 100px; */
+}
+.links >ul{
+    display: flex;
+    justify-content: flex-end;
+}
+li{
+    list-style: none;
+    padding: 12px;
+}
+li>a{
+    text-decoration: none;
+    color: white;
+}
+.logo{
+    align-self: center;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+.hero{
+    background-color: #1f2937;
+    color: white;
+    
+}
+.hero>img{
+    padding: 30px;
+}
+.pieces{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.combinations>p{
+    text-align: center;
+}
+.combinations>img{
+    width: 250px;
+    border-radius: 18px;
+}
+button{
+    width: 100px;
+    padding: 3px;
+    margin: 8px;
+    background-color: #3882F6;
+    color: white;
+    border-color: #3882F6;
+}
+.combinations{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0;
+    flex-basis: 0;
+}
+.hero h1{
+    text-align: center;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+.quote{
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    padding: 50px;
+}
+.action{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    background-color:#3882F6;
+    color: white ;
+}
+.action button{
+    border-color: white;
+}
