@@ -29,6 +29,7 @@ li>a{
 }
 .logo{
     align-self: center;
+    font-size: larger;
 }
 .hero{
     display: flex;
@@ -39,16 +40,23 @@ li>a{
 .content{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     width: 50%;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     padding: 30px;
+    flex: auto;
 }
 .hero{
     background-color: #1f2937;
     color: white;
     flex-wrap: wrap;
     flex: 1;
+    gap:80px;
+}
+.content p{
+    height: min-content;
+    flex-grow: 0;
+    padding: 0;    
 }
 .hero>img{
     width: 300px;
@@ -121,6 +129,7 @@ button{
     background-color: #1f2937;
     text-align: center;
     color: white;
+    padding: 40px;
 }
 .contents{
     margin-top: 40px;
