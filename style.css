@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    
+    background-color: #DFCFBE;
     font-family: Arial, Helvetica, sans-serif;
 }
 .header{
@@ -12,8 +12,8 @@ body{
     background-color: #1f2937;
     color: white;
     /* height: 100px; */
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 .links >ul{
     display: flex;
@@ -34,8 +34,8 @@ li>a{
 .hero{
     display: flex;
     justify-content: space-between;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 .content{
     display: flex;
@@ -50,8 +50,9 @@ li>a{
     background-color: #1f2937;
     color: white;
     flex-wrap: wrap;
-    flex: 1;
+    flex: auto;
     gap:80px;
+    
 }
 .content p{
     height: min-content;
@@ -67,8 +68,8 @@ li>a{
     justify-content: center;
     gap: 50px;
     flex-wrap: wrap;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 .combinations>p{
     text-align: center;
@@ -103,12 +104,12 @@ button{
     font-size: 36px;
     color: #1f2937;
     font-style: italic;
-    padding: 50px;
+    padding: 50px 0;
     margin-top: 50px;
    
 }
 .quote>p{
-    padding: 100px 150px;
+    padding: 100px 100px;
 }
 .action{
     display: flex;
@@ -116,9 +117,8 @@ button{
     gap: 40px;
     background-color:#3882F6;
     color: white ;
-    margin: 60px 150px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    margin: 60px 100px;
+    padding:50px 5px;
     border-radius: 15px;
     
 }
@@ -133,6 +133,7 @@ button{
 }
 .contents{
     margin-top: 40px;
+    
 
 }
 .contents h1{
